@@ -1,9 +1,6 @@
 project_name = 'mimic_a'
 root_folder = '/root/mimic/output'
 
-!nvidia-smi -L
-!pip install git+https://github.com/openai/jukebox.git
-
 import jukebox
 import torch as t
 import librosa
